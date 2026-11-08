@@ -5,4 +5,4 @@ Feature: The Docksal plugin on a project row
   Scenario: The plugin is listed on the Plugins page
     Given I am on "/settings/plugins"
      Then I should see "Docksal"
-      And I should see "@webship/workspace-docksal"
+      And I should see "@webship.co/workspace-docksal"

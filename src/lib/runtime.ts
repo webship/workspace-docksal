@@ -4,7 +4,7 @@
 
 import fs from 'fs';
 import path from 'path';
-import type { ContainerProject, ContainerRuntime } from '@webship/workspace-container';
+import type { ContainerProject, ContainerRuntime } from '@webship.co/workspace-container';
 
 export const docksalRuntime: ContainerRuntime = {
   id: 'docksal',

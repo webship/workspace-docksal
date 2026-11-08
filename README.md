@@ -1,9 +1,9 @@
-# @webship/workspace-docksal
+# @webship.co/workspace-docksal
 
 Docksal for the [Webship Workspace](https://github.com/webship/workspace) dashboard: the **DOCKSAL**
 menu on every project folder that carries a .docksal/ folder, with the runtime's verbs as terminal sessions in
 the project, the up/down caption and the site link, and "Scaffold .docksal/ here (fin config generate)" when a new folder is made.
-A runtime of [`@webship/workspace-container`](https://github.com/webship/workspace-container).
+A runtime of [`@webship.co/workspace-container`](https://github.com/webship/workspace-container).
 
 A project is a Docksal project when it carries `.docksal/` (`docksal.env` or `docksal.yml`); the site link is `VIRTUAL_HOST` from `docksal.env`, or `<folder>.docksal.site`.
 
