@@ -1,12 +1,14 @@
 {
-  "name": "@webship/workspace-docksal",
-  "version": "1.0.0",
-  "description": "Docksal for Webship Workspace: the DOCKSAL menu on every project with a .docksal/ folder (start, stop, restart, status, logs, bash, init, remove), the up/down caption, the virtual host as the site link. A runtime of @webship/workspace-container.",
+  "name": "@webship.co/workspace-docksal",
+  "version": "1.0.0-alpha1",
+  "description": "Docksal for Webship Workspace: the DOCKSAL menu on every project with a .docksal/ folder (start, stop, restart, status, logs, bash, init, remove), the up/down caption, the virtual host as the site link. A runtime of @webship.co/workspace-container.",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
-  "private": true,
   "license": "ISC",
-  "repository": "github:webship/workspace-docksal",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webship/workspace-docksal.git"
+  },
   "files": [
     "dist/src",
     "features",
@@ -46,11 +48,14 @@
     }
   },
   "dependencies": {
-    "@webship/workspace-container": "github:webship/workspace-container#1.0.x"
+    "@webship.co/workspace-container": "^1.0.0-alpha1"
   },
   "devDependencies": {
     "@types/node": "^24.0.0",
-    "@webship/workspace-plugin-api": "github:webship/workspace-plugin-api#1.0.x",
+    "@webship.co/workspace-plugin-api": "^1.0.0-alpha1",
     "typescript": "^5.9.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
