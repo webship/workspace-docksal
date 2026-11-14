@@ -26,6 +26,14 @@
   "workspacePlugin": {
     "name": "docksal",
     "label": "Docksal",
+    "needs": {
+      "commands": [
+        {
+          "command": "fin",
+          "hint": "https://docs.docksal.io/getting-started/setup/"
+        }
+      ]
+    },
     "typeActions": {
       "docksal": [
         "sites",
