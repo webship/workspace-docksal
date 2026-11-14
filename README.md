@@ -16,6 +16,17 @@ bash core/scripts/plugins.sh --activate docksal
 bash core/scripts/plugins.sh --install docksal
 ```
 
+## What it needs
+
+On the machine this plugin needs `fin` (https://docs.docksal.io/getting-started/setup/), and its manifest says so (`needs.commands`). The workspace reports it and never installs it:
+
+```bash
+bash core/scripts/plugins.sh --check docksal      # found, with its version, or missing, with how to install it
+webship-workspace doctor                        # the same for the core and every plugin
+```
+
+It needs no other plugin: its menu is on the project rows of whatever folders the workspace has.
+
 ## The verbs
 
 | Verb | Command |
