@@ -1,0 +1,21 @@
+{
+  "variants": [
+    {
+      "title": "",
+      "sample": {
+        "file": ".docksal/docksal.env",
+        "name": "<name>"
+      }
+    }
+  ],
+  "readonly": [
+    "status"
+  ],
+  "handover": [
+    "logs",
+    "shell"
+  ],
+  "export": "docksalRuntime",
+  "find": "ls .docksal/docksal.env .docksal/docksal.yml 2>/dev/null",
+  "helper": []
+}
