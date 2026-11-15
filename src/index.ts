@@ -14,6 +14,12 @@ import { docksalRuntime } from './lib/runtime';
 
 export { docksalRuntime };
 
+/** The AI items the installer places: agents in ai-agents/, skills in ai-skills/, commands in ai-commands/, prompts in ai-prompts/. */
+export const AGENTS: string[] = ['docksal-operator'];
+export const SKILLS: string[] = ['docksal-menu'];
+export const AI_COMMANDS: string[] = ['docksal-status'];
+export const PROMPTS: string[] = ['docksal-up-and-check'];
+
 export function register(api: PluginApi): void {
   registerContainer(api, docksalRuntime);
 }
